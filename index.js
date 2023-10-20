@@ -1,19 +1,8 @@
 let qrText = document.getElementById("qrText");
 let qrImage = document.getElementById("qrImage");
 let imgBox = document.getElementById("imgBox");
-let btn = document.getElementById("btn");
+let btn = document.getElementById("btn")
 
-// btn.addEventListener("click", () => {
-//         // if(isValidURL(qrText.value)) {
-//         //     qrImage.src = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=" + qrText.value;
-//         // imgBox.classList.add("show-img");
-//         // }
-
-//         // else {
-//         //     alert("Invalid URL. Please enter a valid URL");
-//         // }
-//     // generateQR()
-// });
 btn.addEventListener('click', () => {
     generateQR();
 })
